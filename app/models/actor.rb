@@ -6,6 +6,7 @@ class Actor < ActiveRecord::Base
     string = self.first_name
     string = string + self.last_name
     string
+    # "#{self.first_name} #{self.last_name}"
   end
   
 end
