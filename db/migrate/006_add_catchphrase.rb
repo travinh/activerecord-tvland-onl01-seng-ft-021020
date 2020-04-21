@@ -1,6 +1,6 @@
 class AddCatchPhrase < ActiveRecord::Migration[5.1]
 
   def change
-    add_column :shows, :network_id, :integer
+    add_column :characters, :catchphrase :integer
   end
 end
